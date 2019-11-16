@@ -1,6 +1,9 @@
 name: Go
 on:
-  [push, pull_request]:
+  pull_request:
+    branches:
+      - master
+  push:
     branches:
       - master
 jobs:
